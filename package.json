@@ -1,0 +1,35 @@
+{
+    "name": "PAY-OMS",
+    "version": "0.0.0",
+    "scripts": {
+        "start": "npm run dev",
+        "dev": "vite --mode=development",
+        "stage": "vite --mode=stage",
+        "production": "vite --mode=production",
+        "build:dev": "vite build --mode=development",
+        "build:stage": "vite build --mode=stage",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.6.2",
+        "antd-mobile": "^5.0.0-beta.26",
+        "axios": "^0.24.0",
+        "less": "^4.1.2",
+        "postcss": "^8.3.11",
+        "postcss-pxtorem": "^6.0.0",
+        "postcss-windicss": "^1.0.0",
+        "qs": "^6.10.1",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^6.0.2",
+        "vite-plugin-windicss": "^1.5.1",
+        "windicss": "^3.2.1"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^1.0.0",
+        "colors": "^1.4.0",
+        "vite": "^2.5.4"
+    }
+}
